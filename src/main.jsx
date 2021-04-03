@@ -8,13 +8,14 @@ import Candidat from './pages/Candidat'
 import Partis from './pages/Partis'
 import Bureau from './pages/Bureau'
 import Resultats from './pages/Resultats'
+import Logo from './Logo.png'
 
 
 ReactDOM.render(
   <React.StrictMode>
     <AppBar position='fixed' >
       <Toolbar style={{ display: 'flex', alignContent: 'center', justifyContent: "center" }} >
-        <img alt='Logo CNI' src="http://www.lepaystchad.com/wp-content/uploads/2020/07/Screenshot_20200702-150825.png" height='65px' width='65px' style={{ borderRadius: "50%", marginBottom: "-50px" }} />
+        <img alt='Logo CNI' src={Logo} height='65px' width='65px' style={{ borderRadius: "50%", marginBottom: "-50px" }} />
       </Toolbar>
     </AppBar>
     <div style={{ marginTop: "80px" }}>
