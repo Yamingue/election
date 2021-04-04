@@ -1,6 +1,8 @@
 import { Grid, IconButton, Icon, Container, Card, CardMedia, CardContent } from '@material-ui/core';
 import React from 'react'
 import { Link } from 'react-router-dom';
+import brice from './brice.jpg'
+import felix from './felix.jpg'
 
 export default class Candidat extends React.Component {
     constructor(props) {
@@ -20,7 +22,7 @@ export default class Candidat extends React.Component {
                         <Card>
                             <CardMedia
                                 component='img'
-                                image='https://tchadinfos.com/wp-content/uploads/2016/03/IMG_0190-785x500.jpg'
+                                image={brice}
                             />
                             <CardContent>
                                 MBAIMON GUEDMBAYE BRICE
@@ -53,7 +55,7 @@ export default class Candidat extends React.Component {
                         <Card>
                             <CardMedia
                                 component='img'
-                                image='https://tchadinfos.com/wp-content/uploads/2019/04/felix.jpg'
+                                image={felix}
                             />
                             <CardContent>
                                 ROMANDOUMNGAR FELIX NIALBE
@@ -101,17 +103,6 @@ export default class Candidat extends React.Component {
                             />
                             <CardContent>
                                 PAHIMI PADACHE ALBERT
-                        </CardContent>
-                        </Card>
-                    </Grid>
-                    <Grid item xs={6}>
-                        <Card>
-                            <CardMedia
-                                component='img'
-                                image='https://afrique.tv5monde.com/sites/afrique/files/styles/diapo_908x605/public/2021-03/field_media_image-422099-AP_20183376583873.jpg?h=52605a11&itok=qBxkQ5Yz'
-                            />
-                            <CardContent>
-                                Marechal Idrise deby itno
                         </CardContent>
                         </Card>
                     </Grid>
