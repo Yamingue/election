@@ -1,5 +1,5 @@
 import React from 'react';
-import { makeStyles, Paper, InputBase, Divider,IconButton } from '@material-ui/core';
+import { makeStyles, Paper, InputBase,IconButton } from '@material-ui/core';
 import {Search as SearchIcon } from '@material-ui/icons';
 
 const useStyles = makeStyles((theme) => ({
