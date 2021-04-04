@@ -29,7 +29,7 @@ const SearchCustum = ()=> {
     <Paper component="form" className={classes.root}>
       <InputBase
         className={classes.input}
-        placeholder="nom ou prenom"
+        placeholder="Nom et prenom Electeur"
         inputProps={{ 'aria-label': 'Nom et prenom Electeur' }}
       />
       <IconButton type="submit" className={classes.iconButton} aria-label="search">
