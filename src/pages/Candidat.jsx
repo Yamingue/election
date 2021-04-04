@@ -44,7 +44,7 @@ export default class Candidat extends React.Component {
                         <Card>
                             <CardMedia
                                 component='img'
-                                image='https://www.ceni.td/wp-content/uploads/2021/03/4-724x1024.png'
+                                image='https://www.ceni.td/wp-content/uploads/2021/03/3-212x300.png'
                             />
                             <CardContent>
                                 KEBZABO SALEH
@@ -88,7 +88,7 @@ export default class Candidat extends React.Component {
                         <Card>
                             <CardMedia
                                 component='img'
-                                image='https://lesahel.td/wp-content/uploads/2021/02/theophile-bongoro-752x440.jpg'
+                                image='https://www.ceni.td/wp-content/uploads/2021/03/7-724x1024.png'
                             />
                             <CardContent>
                                 BONGORO THEOPHILE
