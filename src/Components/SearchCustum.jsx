@@ -30,7 +30,7 @@ const SearchCustum = ()=> {
       <InputBase
         className={classes.input}
         placeholder="nom ou prenom"
-        inputProps={{ 'aria-label': 'nom ou prenom' }}
+        inputProps={{ 'aria-label': 'Nom et prenom Electeur' }}
       />
       <IconButton type="submit" className={classes.iconButton} aria-label="search">
         <Search />
