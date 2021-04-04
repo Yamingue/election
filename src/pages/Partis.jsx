@@ -15,8 +15,8 @@ export default class Partis extends React.Component {
                         <Icon className="fas fa-arrow-alt-circle-left" /> Retour
                     </IconButton>
                 </Link>
-                <Grid container spacing={6}>
-                <Grid item xs={12}>
+                <Grid container spacing={3}>
+                <Grid item xs={6}>
                     <Card>
                         <CardMedia
                             component='img'
@@ -27,7 +27,7 @@ export default class Partis extends React.Component {
                         </CardContent>
                     </Card>
                 </Grid>
-                <Grid item xs={12}>
+                <Grid item xs={6}>
                     <Card>
                         <CardMedia
                             component='img'
@@ -38,7 +38,7 @@ export default class Partis extends React.Component {
                         </CardContent>
                     </Card>
                 </Grid>
-                <Grid item xs={12}>
+                <Grid item xs={6}>
                     <Card>
                         <CardMedia
                             component='img'
@@ -49,7 +49,7 @@ export default class Partis extends React.Component {
                         </CardContent>
                     </Card>
                 </Grid>
-                <Grid item xs={12}>
+                <Grid item xs={6}>
                     <Card>
                         <CardMedia
                             component='img'
@@ -60,7 +60,7 @@ export default class Partis extends React.Component {
                         </CardContent>
                     </Card>
                 </Grid>
-                <Grid item xs={12}>
+                <Grid item xs={6}>
                     <Card>
                         <CardMedia
                             component='img'
@@ -71,7 +71,7 @@ export default class Partis extends React.Component {
                         </CardContent>
                     </Card>
                 </Grid>
-                <Grid item xs={12}>
+                <Grid item xs={6}>
                     <Card>
                         <CardMedia
                             component='img'
@@ -82,7 +82,7 @@ export default class Partis extends React.Component {
                         </CardContent>
                     </Card>
                 </Grid>
-                <Grid item xs={12}>
+                <Grid item xs={6}>
                     <Card>
                         <CardMedia
                             component='img'
@@ -93,7 +93,7 @@ export default class Partis extends React.Component {
                         </CardContent>
                     </Card>
                 </Grid>
-                <Grid item xs={12}>
+                <Grid item xs={6}>
                     <Card>
                         <CardMedia
                             component='img'
@@ -104,7 +104,7 @@ export default class Partis extends React.Component {
                         </CardContent>
                     </Card>
                 </Grid>
-                <Grid item xs={12}>
+                <Grid item xs={6}>
                     <Card>
                         <CardMedia
                             component='img'
