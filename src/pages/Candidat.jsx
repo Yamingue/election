@@ -1,7 +1,7 @@
 import { Grid, IconButton, Icon, Container, Card, CardMedia, CardContent } from '@material-ui/core';
 import React from 'react'
 import { Link } from 'react-router-dom';
-import brice from './brice.jpg'
+import brice from '../bice.jpg'
 import felix from './felix.jpg'
 
 export default class Candidat extends React.Component {
