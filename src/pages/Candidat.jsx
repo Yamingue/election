@@ -22,7 +22,7 @@ export default class Candidat extends React.Component {
                         <Card>
                             <CardMedia
                                 component='img'
-                                image={brice}
+                                image={'https://www.ceni.td/wp-content/uploads/2021/03/1-212x300.png'}
                             />
                             <CardContent>
                                 MBAIMON GUEDMBAYE BRICE
@@ -33,7 +33,7 @@ export default class Candidat extends React.Component {
                         <Card>
                             <CardMedia
                                 component='img'
-                                image='https://afrique.tv5monde.com/sites/afrique/files/styles/diapo_908x605/public/2021-03/field_media_image-422099-AP_20183376583873.jpg?h=52605a11&itok=qBxkQ5Yz'
+                                image='https://www.ceni.td/wp-content/uploads/2021/03/2-212x300.png'
                             />
                             <CardContent>
                                 IDRISS DEBY ITNO
@@ -44,7 +44,7 @@ export default class Candidat extends React.Component {
                         <Card>
                             <CardMedia
                                 component='img'
-                                image='https://upload.wikimedia.org/wikipedia/commons/8/8a/Saleh_Kebzabo.jpg'
+                                image='https://www.ceni.td/wp-content/uploads/2021/03/4-724x1024.png'
                             />
                             <CardContent>
                                 KEBZABO SALEH
@@ -55,7 +55,7 @@ export default class Candidat extends React.Component {
                         <Card>
                             <CardMedia
                                 component='img'
-                                image={felix}
+                                image={'https://www.ceni.td/wp-content/uploads/2021/03/4-724x1024.png'}
                             />
                             <CardContent>
                                 ROMANDOUMNGAR FELIX NIALBE
@@ -66,7 +66,7 @@ export default class Candidat extends React.Component {
                         <Card>
                             <CardMedia
                                 component='img'
-                                image='https://www.letchadanthropus-tribune.com/wp-content/uploads/2021/03/i3.jpeg'
+                                image='https://www.ceni.td/wp-content/uploads/2021/03/5-724x1024.png'
                             />
                             <CardContent>
                                 ALLADOUM DJARMA BALTHAZAR
@@ -77,7 +77,7 @@ export default class Candidat extends React.Component {
                         <Card>
                             <CardMedia
                                 component='img'
-                                image='https://prabook.com/web/show-photo.jpg?id=12836&cache=false'
+                                image='https://www.ceni.td/wp-content/uploads/2021/03/6-724x1024.png'
                             />
                             <CardContent>
                                 NGARLEJY KODJI-YORONGAR LE MOIBAN
@@ -99,7 +99,7 @@ export default class Candidat extends React.Component {
                         <Card>
                             <CardMedia
                                 component='img'
-                                image='https://www.letchadanthropus-tribune.com/wp-content/uploads/2018/03/Pahimi-Padacke%CC%81.jpg'
+                                image='https://www.ceni.td/wp-content/uploads/2021/03/8-724x1024.png'
                             />
                             <CardContent>
                                 PAHIMI PADACHE ALBERT
@@ -110,7 +110,7 @@ export default class Candidat extends React.Component {
                         <Card>
                             <CardMedia
                                 component='img'
-                                image='https://lesahel.td/wp-content/uploads/2020/06/Beassemnda-Lydie.jpg'
+                                image='https://www.ceni.td/wp-content/uploads/2021/03/9-724x1024.png'
                             />
                             <CardContent>
                             BEASSEMDA LYDIE
@@ -121,7 +121,7 @@ export default class Candidat extends React.Component {
                         <Card>
                             <CardMedia
                                 component='img'
-                                image='https://www.alwihdainfo.com/photo/art/default/53991121-40732140.jpg?v=1613570907'
+                                image='https://www.ceni.td/wp-content/uploads/2021/03/10-212x300.png'
                             />
                             <CardContent>
                                 YOMBOMBE MADJITOLOUM THEOPHILE
