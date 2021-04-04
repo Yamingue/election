@@ -19,7 +19,7 @@ export default class Resultats extends React.Component {
                     <Grid item xs={12}>
                         <Card>
                             <CardHeader
-                                title={'Marechal Idriss Deby Itno'}
+                                title={'Résultats Présidentielle'}
                             />
                             <CardContent>
                                 <Box display="flex" alignItems="center">
@@ -38,7 +38,26 @@ export default class Resultats extends React.Component {
                     <Grid item xs={12}>
                         <Card>
                             <CardHeader
-                                title={'Marechal Idriss Deby Itno'}
+                                title={'Résultats législative'}
+                            />
+                            <CardContent>
+                                <Box display="flex" alignItems="center">
+                                    <Box width="100%" mr={1}>
+                                        <LinearProgress variant="determinate" value={60} color='secondary' />
+                                    </Box>
+                                    <Box minWidth={35}>
+                                        <Typography variant="body2" color="textSecondary">{`${Math.round(
+                                            60,
+                                        )}%`}</Typography>
+                                    </Box>
+                                </Box>
+                            </CardContent>
+                        </Card>
+                    </Grid>
+                    <Grid item xs={12}>
+                        <Card>
+                            <CardHeader
+                                title={'Résultats COmmunale'}
                             />
                             <CardContent>
                                 <Box display="flex" alignItems="center">
