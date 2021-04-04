@@ -31,6 +31,17 @@ export default class Partis extends React.Component {
                     <Card>
                         <CardMedia
                             component='img'
+                            image='https://www.ceni.td/wp-content/uploads/2021/03/Scan-3-150x150.jpg'
+                        />
+                        <CardContent>
+                        MPS
+                        </CardContent>
+                    </Card>
+                </Grid>
+                <Grid item xs={6}>
+                    <Card>
+                        <CardMedia
+                            component='img'
                             image='https://www.ceni.td/wp-content/uploads/2021/03/Scan-4-150x150.jpg'
                         />
                         <CardContent>
