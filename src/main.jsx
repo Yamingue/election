@@ -8,13 +8,14 @@ import Candidat from './pages/Candidat'
 import Partis from './pages/Partis'
 import Bureau from './pages/Bureau'
 import Resultats from './pages/Resultats'
+import logo from './logo_CENI.png'
 
 
 ReactDOM.render(
   <React.StrictMode>
     <AppBar position='fixed' >
       <Toolbar style={{ display: 'flex', alignContent: 'center', justifyContent: "center" }} >
-        <img alt='Logo CNI' src="https://www.journaldusenegal.com/wp-content/uploads/2019/02/15508414877383-780x440.jpg" height='65px' width='65px' style={{ borderRadius: "50%", marginBottom: "-50px" }} />
+        <img alt='Logo CNI' src={logo} height='65px' width='65px' style={{ borderRadius: "50%", marginBottom: "-50px" }} />
       </Toolbar>
     </AppBar>
     <div style={{ marginTop: "80px" }}>
