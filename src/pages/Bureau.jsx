@@ -2,7 +2,7 @@ import { Container, Grid, IconButton, InputAdornment, TextField } from '@materia
 import Icon from '@material-ui/core/Icon';
 import React from 'react'
 import { Link } from 'react-router-dom';
-import bureau from './data'
+import SearchCustum from '../Components/SearchCustum';
 
 const dataf = [
     'dembe 1',
@@ -42,17 +42,8 @@ findBureau(text){
                 </IconButton>
                 </Link>
                 <Grid container spacing={6}>
-                    <Grid item xs={12} style={{display:'flex', alignItems:'center', justifyItems:'center',alignContent:'center'}}>
-                        <TextField 
-                        onChange={this.findBureau}
-                        id='recherche'
-                        label='Recherche'
-                        placeholder='Ville ou quartier'
-                        variant="outlined"
-                        InputLabelProps={{
-                            shrink: true,
-                          }}
-                        />
+                    <Grid item xs={12} style={{display:'flex', alignItems:'center'}}>
+                        <SearchCustum onChange={this.findBureau} />
                     </Grid>
                     {
                         this.state.data.map(k=><Grid item xs={6} key={k}>{k}</Grid>)
