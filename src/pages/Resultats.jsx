@@ -21,18 +21,7 @@ export default class Resultats extends React.Component {
                             <CardHeader
                                 title={'Résultats Présidentielle'}
                             />
-                            <CardContent>
-                                <Box display="flex" alignItems="center">
-                                    <Box width="100%" mr={1}>
-                                        <LinearProgress variant="determinate" value={70} />
-                                    </Box>
-                                    <Box minWidth={35}>
-                                        <Typography variant="body2" color="textSecondary">{`${Math.round(
-                                            70,
-                                        )}%`}</Typography>
-                                    </Box>
-                                </Box>
-                            </CardContent>
+                            
                         </Card>
                     </Grid>
                     <Grid item xs={12}>
@@ -40,18 +29,7 @@ export default class Resultats extends React.Component {
                             <CardHeader
                                 title={'Résultats législative'}
                             />
-                            <CardContent>
-                                <Box display="flex" alignItems="center">
-                                    <Box width="100%" mr={1}>
-                                        <LinearProgress variant="determinate" value={60} color='secondary' />
-                                    </Box>
-                                    <Box minWidth={35}>
-                                        <Typography variant="body2" color="textSecondary">{`${Math.round(
-                                            60,
-                                        )}%`}</Typography>
-                                    </Box>
-                                </Box>
-                            </CardContent>
+                         
                         </Card>
                     </Grid>
                     <Grid item xs={12}>
@@ -59,18 +37,7 @@ export default class Resultats extends React.Component {
                             <CardHeader
                                 title={'Résultats COmmunale'}
                             />
-                            <CardContent>
-                                <Box display="flex" alignItems="center">
-                                    <Box width="100%" mr={1}>
-                                        <LinearProgress variant="determinate" value={60} color='secondary' />
-                                    </Box>
-                                    <Box minWidth={35}>
-                                        <Typography variant="body2" color="textSecondary">{`${Math.round(
-                                            60,
-                                        )}%`}</Typography>
-                                    </Box>
-                                </Box>
-                            </CardContent>
+                            
                         </Card>
                     </Grid>
                 </Grid>
