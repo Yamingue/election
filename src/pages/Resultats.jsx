@@ -19,7 +19,7 @@ export default class Resultats extends React.Component {
                     <Grid item xs={12}>
                         <Card>
                             <CardHeader
-                                title={'Résultats Présidentielle'}
+                                title={'Résultats Présidentielles'}
                             />
                             
                         </Card>
@@ -27,7 +27,7 @@ export default class Resultats extends React.Component {
                     <Grid item xs={12}>
                         <Card>
                             <CardHeader
-                                title={'Résultats législative'}
+                                title={'Résultats législatives'}
                             />
                          
                         </Card>
@@ -35,7 +35,7 @@ export default class Resultats extends React.Component {
                     <Grid item xs={12}>
                         <Card>
                             <CardHeader
-                                title={'Résultats COmmunale'}
+                                title={'Résultats communales'}
                             />
                             
                         </Card>
