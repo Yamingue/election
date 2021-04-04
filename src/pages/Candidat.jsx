@@ -20,10 +20,87 @@ export default class Candidat extends React.Component {
                         <Card>
                             <CardMedia
                                 component='img'
+                                image='https://tchadinfos.com/wp-content/uploads/2016/03/IMG_0190-785x500.jpg'
+                            />
+                            <CardContent>
+                                MBAIMON GUEDMBAYE BRICE
+                        </CardContent>
+                        </Card>
+                    </Grid>
+                    <Grid item xs={6}>
+                        <Card>
+                            <CardMedia
+                                component='img'
                                 image='https://afrique.tv5monde.com/sites/afrique/files/styles/diapo_908x605/public/2021-03/field_media_image-422099-AP_20183376583873.jpg?h=52605a11&itok=qBxkQ5Yz'
                             />
                             <CardContent>
-                                Marechal Idrise deby itno
+                                IDRISS DEBY ITNO
+                        </CardContent>
+                        </Card>
+                    </Grid>
+                    <Grid item xs={6}>
+                        <Card>
+                            <CardMedia
+                                component='img'
+                                image='https://upload.wikimedia.org/wikipedia/commons/8/8a/Saleh_Kebzabo.jpg'
+                            />
+                            <CardContent>
+                                KEBZABO SALEH
+                        </CardContent>
+                        </Card>
+                    </Grid>
+                    <Grid item xs={6}>
+                        <Card>
+                            <CardMedia
+                                component='img'
+                                image='https://tchadinfos.com/wp-content/uploads/2019/04/felix.jpg'
+                            />
+                            <CardContent>
+                                ROMANDOUMNGAR FELIX NIALBE
+                        </CardContent>
+                        </Card>
+                    </Grid>
+                    <Grid item xs={6}>
+                        <Card>
+                            <CardMedia
+                                component='img'
+                                image='https://www.letchadanthropus-tribune.com/wp-content/uploads/2021/03/i3.jpeg'
+                            />
+                            <CardContent>
+                                ALLADOUM DJARMA BALTHAZAR
+                        </CardContent>
+                        </Card>
+                    </Grid>
+                    <Grid item xs={6}>
+                        <Card>
+                            <CardMedia
+                                component='img'
+                                image='https://prabook.com/web/show-photo.jpg?id=12836&cache=false'
+                            />
+                            <CardContent>
+                                NGARLEJY KODJI-YORONGAR LE MOIBAN
+                        </CardContent>
+                        </Card>
+                    </Grid>
+                    <Grid item xs={6}>
+                        <Card>
+                            <CardMedia
+                                component='img'
+                                image='https://lesahel.td/wp-content/uploads/2021/02/theophile-bongoro-752x440.jpg'
+                            />
+                            <CardContent>
+                                BONGORO THEOPHILE
+                        </CardContent>
+                        </Card>
+                    </Grid>
+                    <Grid item xs={6}>
+                        <Card>
+                            <CardMedia
+                                component='img'
+                                image='https://www.letchadanthropus-tribune.com/wp-content/uploads/2018/03/Pahimi-Padacke%CC%81.jpg'
+                            />
+                            <CardContent>
+                                PAHIMI PADACHE ALBERT
                         </CardContent>
                         </Card>
                     </Grid>
@@ -42,10 +119,10 @@ export default class Candidat extends React.Component {
                         <Card>
                             <CardMedia
                                 component='img'
-                                image='https://afrique.tv5monde.com/sites/afrique/files/styles/diapo_908x605/public/2021-03/field_media_image-422099-AP_20183376583873.jpg?h=52605a11&itok=qBxkQ5Yz'
+                                image='https://lesahel.td/wp-content/uploads/2020/06/Beassemnda-Lydie.jpg'
                             />
                             <CardContent>
-                                Marechal Idrise deby itno
+                            BEASSEMDA LYDIE
                         </CardContent>
                         </Card>
                     </Grid>
@@ -53,32 +130,10 @@ export default class Candidat extends React.Component {
                         <Card>
                             <CardMedia
                                 component='img'
-                                image='https://afrique.tv5monde.com/sites/afrique/files/styles/diapo_908x605/public/2021-03/field_media_image-422099-AP_20183376583873.jpg?h=52605a11&itok=qBxkQ5Yz'
+                                image='https://www.alwihdainfo.com/photo/art/default/53991121-40732140.jpg?v=1613570907'
                             />
                             <CardContent>
-                                Marechal Idrise deby itno
-                        </CardContent>
-                        </Card>
-                    </Grid>
-                    <Grid item xs={6}>
-                        <Card>
-                            <CardMedia
-                                component='img'
-                                image='https://afrique.tv5monde.com/sites/afrique/files/styles/diapo_908x605/public/2021-03/field_media_image-422099-AP_20183376583873.jpg?h=52605a11&itok=qBxkQ5Yz'
-                            />
-                            <CardContent>
-                                Marechal Idrise deby itno
-                        </CardContent>
-                        </Card>
-                    </Grid>
-                    <Grid item xs={6}>
-                        <Card>
-                            <CardMedia
-                                component='img'
-                                image='https://afrique.tv5monde.com/sites/afrique/files/styles/diapo_908x605/public/2021-03/field_media_image-422099-AP_20183376583873.jpg?h=52605a11&itok=qBxkQ5Yz'
-                            />
-                            <CardContent>
-                                Marechal Idrise deby itno
+                                YOMBOMBE MADJITOLOUM THEOPHILE
                         </CardContent>
                         </Card>
                     </Grid>
