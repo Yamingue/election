@@ -27,19 +27,6 @@ export default class Home extends React.Component {
                         </Link>
                     </Grid>
                     <Grid item xs={6}>
-                    <Link to='/partis' style={{ textDecoration: "none" }}>
-                        <Card>
-                            <CardContent >
-                                <Typography variant='h5' align='center'>
-                                    <AssignmentIndTwoTone style={{ fontSize: '50px' }} /> <br />
-                                    Partis pollitique
-                                </Typography>
-
-                            </CardContent>
-                        </Card>
-                        </Link>
-                    </Grid>
-                    <Grid item xs={6}>
                     <Link to='/candidats' style={{ textDecoration: "none" }}>
                         <Card>
                             <CardContent >
