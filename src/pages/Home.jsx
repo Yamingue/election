@@ -11,8 +11,9 @@ export default class Home extends React.Component {
     render() {
         return (
             <Container>
+                {/*containeur globale de cette page*/}
                 <Grid container spacing={6} style={{ marginTop: '10px' }} alignItems='center'>
-                    
+                    {/*grille bureau*/}
                     <Grid item xs={6} >
                         <Link to='/bureau' style={{ textDecoration: "none" }}>
                         <Card>
@@ -26,6 +27,8 @@ export default class Home extends React.Component {
                         </Card>
                         </Link>
                     </Grid>
+                    {/*fin grille bureau*/}
+                    {/*grille candidats*/}
                     <Grid item xs={6}>
                     <Link to='/candidats' style={{ textDecoration: "none" }}>
                         <Card>
@@ -39,7 +42,8 @@ export default class Home extends React.Component {
                         </Card>
                         </Link>
                     </Grid>
-                    
+                    {/*fin grille candidats*/}
+                    {/*grille resultats*/}
                     <Grid item xs={6}>
                     <Link to='/resultats' style={{ textDecoration: "none" }}>
                         <Card>
@@ -53,6 +57,7 @@ export default class Home extends React.Component {
                         </Card>
                         </Link>
                     </Grid>
+                    {/*grille resultats*/}
                 </Grid>
             </Container>
         );
