@@ -29,10 +29,9 @@ export default class Home extends React.Component {
                     </Grid>
                     {/*fin grille bureau*/}
                     {/*grille candidats*/}
-                    {/** on modifi la couleur du bouttons come sa */}
-                    <Grid item xs={6} style={{backgroundColor:'blue', color:'white'}}>
+                    <Grid item xs={6}>
                     <Link to='/candidats' style={{ textDecoration: "none" }}>
-                        <Card>
+                        <Card style={{ backgroundColor: 'blue', color:'white'}}>
                             <CardContent >
                                 <Typography variant='h5' align='center'>
                                     <Accessibility style={{ fontSize: '50px' }} /> <br />
@@ -45,9 +44,9 @@ export default class Home extends React.Component {
                     </Grid>
                     {/*fin grille candidats*/}
                     {/*grille resultats*/}
-                    <Grid item xs={6} style={{backgroundColor:'blue', color:'white'}}>
+                    <Grid item xs={6}>
                     <Link to='/resultats' style={{ textDecoration: "none" }}>
-                        <Card>
+                        <Card style={{ backgroundColor: 'blue', color:'white'}}>
                             <CardContent >
                                 <Typography variant='h5' align='center'>
                                     <EventNote style={{ fontSize: '50px' }} /> <br />
