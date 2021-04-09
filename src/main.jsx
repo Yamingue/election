@@ -19,7 +19,7 @@ ReactDOM.render(
       </Toolbar>
     </AppBar>
     <div style={{ marginTop: "80px" }}>
-      <Typography variant='h3' align='center'>
+      <Typography variant='h3' align='center' style={{color:'#efd807'}}>
         CENI-TCHAD
       </Typography>
       <HashRouter>
